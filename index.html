@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <!-- Header -->
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://i.postimg.cc/CxZfwCnV/logo-andreawebdev.png" alt="andreawebdev logo" />
+      </div>
+      <!-- Navbar -->
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#project">Project</a></li>
+          <li><a class="nav-link" href="#website-development">Web Development</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+
+    <section id="hero">
+      <div class="hero-content">
+      <h1>Do you like our articles?</h1>
+      <p>Subscribe to our newsletter, and receive free email updates.</p>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Enter your email here ..." class="form-inputs" required>
+        </input>
+        <br>
+        <input id="submit" type="submit" value="Subscribe"></input>
+      </form>
+  </div>
+    </section>
+
+    <!-- Project -->
+
+    <section id="project">
+      <div class="video-title">
+        <h1>My Project</h1>
+      </div>
+      <div class="video-project">
+        <div>
+          <h2>Web Developer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto.
+          </p>
+        </div>
+        <div>
+
+          <h2>Wordpress Developer</h2>
+          <div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-pJbbewOQOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="website-development" class="bg-website-developments">
+      <div class="wd-title">
+        <h1>Web Site Development</h1>
+      </div>
+      <div class="website-developments wd-container">
+        <div class="website-development">
+          <span><i class="fa fa-code" aria-hidden="true"></i>
+          </span>
+          <h2>Cheap WebSites</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto.
+          </p>
+        </div>
+
+        <div class="website-development">
+          <h2>Business WebSites</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto.
+          </p>
+        </div>
+        <div class="website-development">
+          <h2>Siti Ecommerce</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact-title">
+        <h1>Contact me</h1>
+      </div>
+
+      <div class="contact contact-container">
+        <div class="contact-left">
+          <h2>Let's keep in touch</h2>
+          <p>Send a message now for any kind of question. Fill in the fields in the form on the side, and press the Send Message button.
+            Or Send an email to the following address:
+            <br>
+            <span>email@gmail.com</span>
+          </p>
+        </div>
+        <div class="contact-right">
+          <form class="form">
+            <h2>Message me</h2>
+            <div>
+              <label for="name" id="name-label">Name</label>
+              <input id="name" type="text" name="name" placeholder="Enter your Name here" class="form-inputs" required></input>
+
+              <label for="email" id="email-label">Email</label>
+              <input id="email" type="email" name="email" placeholder="Enter your email here" class="form-inputs" required></input>
+            </div>
+            <label for="object" id="object-label">Object</label>
+            <input id="name" type="text" name="object" placeholder="Enter the Subject of the message here" class="form-inputs" required></input>
+
+            <label for="textarea">Other information</label>
+            <textarea id="textarea" name="information" placeholder="comments here" rows="5" cols="50">
+</textarea>
+
+            <input id="submit" type="submit" value="Send message"></input>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Created By <span><a href="http://www.andreaborelli.it/" target="_blank">Andrea Borelli</a></span> | &copy; 2021 All rights reserved.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
